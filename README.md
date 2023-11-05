@@ -15,14 +15,13 @@ output_folder = {output_folder}
 string_folder = {string_folder}
 ```
 
+For more information please check [here](Documentation/tgml.md).
+
 2. Library offers a class which looks like the following.
 ```
 HTMLTemplates pages = new HTMLTemplates("config.toml");
-
 ...
 pages.preconfigure(key, value);
-...
-pages.set_language('EN');
 ...
 pages.render("welcome/hello.html", {...additionalconfiguration});
 ...
@@ -37,3 +36,8 @@ To understand how we support multiple languages please see [here](Documentation/
 ```
 
 To see a list of functions [here](Documentation/OptionalFunctions.md).
+
+
+4. We cache as much as possible. 
+
+If this is a priority. I needs things fast, unbiased and easy to add to. 
