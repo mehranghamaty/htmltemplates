@@ -2,6 +2,8 @@
 
 Inspired from [html-compiler](https://github.com/mehranghamaty/html-compiler). 
 
+Currently trying to figure out how the UI should look.
+
 A shared library for generating templated html pages.
 
 The intented usage would be as follows:
